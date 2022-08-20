@@ -1,0 +1,42 @@
+.coluna {
+    display: flex;
+    flex-flow: column;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row;
+}
+
+.linha2 {
+    display: flex;
+    flex-flow: wrap row; 
+}
+
+.flexbox {
+    text-align: center;
+    display: flexbox;
+    background: #6e00d4;
+    padding: 140px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox2 {
+    text-align: center;
+    display: flexbox;
+    background: #00ffc8;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+    
+}
+
+.flexbox3 {
+    text-align: center;
+    display: flexbox;
+    background: #1900ff;
+    padding: 150px;
+    margin: 10px;
+    flex-grow: 1;
+}
