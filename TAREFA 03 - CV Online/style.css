@@ -1,0 +1,51 @@
+body{
+    background-color:#94d9f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+H1{
+    color: rgb(168, 7, 7);
+}
+.header{
+    text-align: center;
+}
+.header img{
+    width: 10%;
+    border-radius: 5%;
+    align: center;
+    
+}
+.dados-pessoais{
+    text-align: justify;
+    padding-left: 5%;
+}
+.linkedin{
+    width: 3%;
+}
+.github{
+    width: 3%;
+}
+.descricao{
+    padding-left: 5%;
+}
+.objetivo-profissional{
+    padding-left: 5%;
+}
+.formacao-academica{
+    padding-left: 5%; 
+}
+.cursos{
+    padding-left: 5%;
+}
+.conhecimentos{
+    padding-left: 5%; 
+}
+.links-interesse{
+       padding-left: 5%;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    
+}
