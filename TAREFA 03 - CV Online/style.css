@@ -1,6 +1,7 @@
 body{
-    background-color:#94d9f0;
+    background-image: url("img/fundo.jpg");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
     
 }
 
@@ -10,21 +11,22 @@ H1{
 .header{
     text-align: center;
 }
-.header img{
-    width: 10%;
+.header .perfil{
+    width: 15%;
     border-radius: 5%;
     align: center;
     
 }
+
 .dados-pessoais{
     text-align: justify;
     padding-left: 5%;
 }
-.linkedin{
-    width: 3%;
+.linkedin {
+    width: 4%;
 }
 .github{
-    width: 3%;
+    width: 4%;
 }
 .descricao{
     padding-left: 5%;
