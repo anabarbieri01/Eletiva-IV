@@ -50,12 +50,17 @@
                     </tr>
                     </tr>
                 </table>
+
+
             </div>
 
 
         </div>
         <div class="flexbox2">
-            Histórico
+            <h2>Histórico</h2>
+            <div id="history">
+
+            </div>
         </div>
 
     </section>
@@ -85,6 +90,9 @@
             } else {
                 document.getElementById('resultado').innerHTML = 'Nada...';
             }
+
+            document.getElementById("history").innerHTML += "<h1>" + resultado + ' = ' + eval(resultado) + "</h1>";
+
         }
     </script>
 </body>

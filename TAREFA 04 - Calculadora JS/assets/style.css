@@ -1,12 +1,11 @@
 body{
-    background-color: rgb(187, 255, 221);
+    background-image: url("img/fundo.jpg");
 }
 .linha{
     display: flex;
     flex-flow: row;
     padding: 100pt;
 }
-
 
 .flexbox1 {
     text-align: center;
@@ -21,24 +20,13 @@ body{
 
 .flexbox2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     display: flexbox;
     background: #ca0098;
-    padding: 100pt;
-    margin: 10px;
+    padding: 60pt;
+    margin: 5px;
     flex-grow: 1;
 }
-/*
-.flexbox3{
-    font-size: 50px;
-    display: flexbox;
-    background: #a79999;
-    padding: 100pt;
-    margin: 10px;
-    flex-grow: 1;
-    width: 100;
-}*/
-
 
 
 .botao{
@@ -57,7 +45,7 @@ body{
 }
 
 #resultado{
-    width: 207px;
+    width: 220px;
     height: 30px;
     margin: 5px;
     font-size: 25px;
