@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 185, 213);
+    background-color: rgb(187, 255, 221);
 }
 .linha{
     display: flex;
@@ -7,15 +7,16 @@ body{
     padding: 100pt;
 }
 
+
 .flexbox1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     display: flexbox;
-    background: #ff0000;
-    padding: 100pt;
-    margin: 10px;
+    background: #036b42;
+    padding: 60pt;
+    margin: 5px;
     flex-grow: 1;
-    width: -40;
+    width: -30;
 }
 
 .flexbox2 {
@@ -26,4 +27,42 @@ body{
     padding: 100pt;
     margin: 10px;
     flex-grow: 1;
+}
+/*
+.flexbox3{
+    font-size: 50px;
+    display: flexbox;
+    background: #a79999;
+    padding: 100pt;
+    margin: 10px;
+    flex-grow: 1;
+    width: 100;
+}*/
+
+
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #ffff;
+    margin: 3px;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    background-color: white;
+    padding: 5px;
 }
